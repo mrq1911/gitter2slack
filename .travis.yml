@@ -1,0 +1,13 @@
+language: clojure
+services:
+  - docker
+cache:
+  directories:
+    - ~/.m2
+jdk:
+  - oraclejdk8
+install:
+  - lein uberjar
+  - docker login -u lumir -p $DOCKER_PASS
+  - docker build -t lumir/gitter2slack
+  - docker push lumir/gitter2slack
