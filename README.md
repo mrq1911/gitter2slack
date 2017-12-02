@@ -2,6 +2,8 @@
 
 Don't miss any more Gitter messages! You can easily stream all messages from Gitter directly to your Slack channel.
 
+![](https://user-images.githubusercontent.com/2580779/33510883-010cd5fe-d712-11e7-85b7-a314b517662a.png)
+
 ## Installation
 
 You have to always set these environment properties:
