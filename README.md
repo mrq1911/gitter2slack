@@ -1,13 +1,13 @@
 # gitter→slack
 
-Don't miss any more Gitter messages! You can easily stream aeveryting from Gitter directly to your Slack channel.
+Don't miss any more Gitter messages! You can easily stream everything from Gitter directly to your Slack channel.
 
 ![](https://user-images.githubusercontent.com/2580779/33510883-010cd5fe-d712-11e7-85b7-a314b517662a.png)
 
 ## Installation
 
 You have to always set these environment properties:
-* *GITTER_ROOM* - room you want to relay (uri after gitter domain, for example `swarmpit_io/swarmpit`) 
+* *GITTER_ROOM* - room you want to relay (uri after Gitter server, for example, `swarmpit_io/swarmpit`) 
 * *GITTER_TOKEN* - API access token from https://developer.gitter.im/apps, using some technical account is recommended
 * *SLACK_HOOK* - Slack [Incoming Webhook](https://api.slack.com/incoming-webhooks) where message will be sent to
 
@@ -42,7 +42,6 @@ GITTER_ROOM=swarmpit_io/swarmpit \
 GITTER_TOKEN=somerandomtoken \
 SLACK_HOOK=https://hooks.slack.com/services/hookity/hook/hook \
 java -jar gitter2slack.jar
-
 ```
 
 ## Build
